@@ -13,3 +13,10 @@ function generateError(message: string, code: number): never {
 }
 
 generateError('An error occurred!', 500);
+
+const button = document.querySelector('button')!;
+
+button.addEventListener('click',() => {
+  console.log('clicked')
+})
+
